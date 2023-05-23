@@ -1,3 +1,4 @@
+// Kists all questions and answers to each question
 let level1Questions = [
 	{
 		question: "Which club has won the most English Premier League titles?",
