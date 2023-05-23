@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./assets/css/game.css" />
+	</head>
+	<body>
+		<div class="game-bg">
+			<div class="name-modal active">
+				<div class="head">
+					<h3 class="name-header">
+						Please enter your name to proceed.
+					</h3>
+				</div>
+				<div class="game-body">
+					<div class="input">
+						<input type="text" id="inputDetails" />
+					</div>
+					<div class="buttons">
+						<button id="startBtn">Save</button>
+					</div>
+				</div>
+			</div>
+			<div class="rules-modal">
+				<div class="head">
+					<h3>Rules</h3>
+				</div>
+				<div class="game-body">
+					<ul>
+						<li>
+							There are 5 stages with 6 questions each. Once you
+							answer all questions correctly in one stage, you
+							advance to the next stage.
+						</li>
+						<li>
+							Each stage has different timers. The more you
+							advance, the lesser the time it will take to
+							complete all 6 questions. We can't promise it won't
+							get harder.
+						</li>
+						<li>
+							Your goal is to answer all questions correctly
+							before moving to the next stage.
+						</li>
+					</ul>
+					<div class="buttons">
+						<button class="rules-btn">Start</button>
+						<a href="./index.html" class="button danger">Quit</a>
+					</div>
+				</div>
+			</div>
+			<div class="quiz-modal">
+				<div class="head">
+					<h3 class="quiz-head"></h3>
+					<span>Time Left: <span class="timer"></span></span>
+				</div>
+				<div class="quiz-body">
+					<div class="question">
+						<!-- Question stays here -->
+					</div>
+					<div class="options">
+						<!-- Options stays here -->
+					</div>
+					<div class="buttons">
+						<button id="quizBtn">Next</button>
+					</div>
+				</div>
+			</div>
+			<div class="result-modal">
+				<div class="head">
+					<h3 class="result-head"></h3>
+				</div>
+				<div class="result-body">
+					<p class="result-1"></p>
+					<p class="result-2"></p>
+
+					<div class="buttons">
+						<a class="button" href="./profile.html"
+							>Check your Rank</a
+						>
+						<button class="n-stage">Next Stage</button>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<p>&copy; 2023. Developed by Roland.</p>
+			</footer>
+		</div>
+		<script src="./assets/js/questions.js"></script>
+		<script src="./assets/js/main.js"></script>
+	</body>
+</html>
