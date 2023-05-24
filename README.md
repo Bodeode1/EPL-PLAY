@@ -22,6 +22,16 @@ Interactive Frontend Development Milestone Project 2
     1. [Languages](#languages)
     2. [Frameworks and Tools](#frameworks-and-tools)
 5. [Features](#features)
+6. [Testing](#validation)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [JS Validation](#JS-Validation)
+    4. [Accessibility](#accessibility)
+    5. [Performance](#performance)
+    6. [Responsiveness](#responsiveness)
+    7. [Device testing](#performing-tests-on-various-devices)
+    8. [Browser compatibility](#browser-compatibility)
+    9. [Testing user stories](#testing-user-stories) 
 
 ## Introduction
 
@@ -74,8 +84,7 @@ The game was designed to stimulate users' senses. I wanted users to have a sense
 For the colour, I opted for purple as the only color for the website. This keeps the website clean and simple.
 
 ### **Fonts**
-Roboto was used for the logo and the headings throughout the site. The logic behind this was to maintain style and simplicity throughout the site and call attention to key information.
-Source-sans-pro was chosen for the body text of the website, this font combines very well with Roboto and again maintains the clean simplistic approach site-wide.
+Segoe UI and Lucida Sans was used for most of the content on the website. Courier New was used for buttons.
 
 ### **Structure**
 The website consists of four separate pages, all of which are resonsive in nature across all devices.
@@ -86,12 +95,12 @@ The website consists of four separate pages, all of which are resonsive in natur
 
 ## Technologies Used
 
-### Languages
+### **Languages**
 - HTML
 - CSS
 - JavaScript
 
-### Frameworks and Tools
+### **Frameworks and Tools**
 - Git
 - GitHub
 - Gitpod
@@ -102,7 +111,7 @@ The website consists of four separate pages, all of which are resonsive in natur
 ## Features
 The page consists of four pages.
 
-### Logo and Navigation Bar
+### **Logo and Navigation Bar**
 - The navigation is fully responsive and collapses when the window is minimised.
 - The Logo is a hyperlink that takes users back to the home page
 
@@ -114,7 +123,7 @@ The page consists of four pages.
 
 ![Nav-Bar on Mobile](assets/images/navbar-mobile.png)
 
-### About
+### **About**
 This page introduces users to EPL Play
 
 <p>About Page on Laptop</>
@@ -123,9 +132,53 @@ This page introduces users to EPL Play
 
 ![About Page Mobile](assets/images/about-page-mobile.png)
 
-### Profile
+### **Profile**
 Lets a user creates a profile. 
 
 <p>Profile Page Laptop</p>
 
 ![Profile Page Laptop](assets/images/profile-page-laptop.png)
+
+### **Contact**
+On the contact page, users enter their names, enails and also leaves a feedback.
+
+![Contact Page on Mobile](assets/images/contact-page.png)
+
+## Validation
+
+### **HTML Validation**
+The W3C Markup Validation Service was used to validate the HTML of the website. No errow was found.
+
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbodeode1.github.io%2FEPL-PLAY%2Fabout.html) - No Errors Found
+
+profile.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbodeode1.github.io%2FEPL-PLAY%2Fprofile.html) - No Erros
+Found
+
+contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbodeode1.github.io%2FEPL-PLAY%2Fcontact.html) - No Erros Found 
+
+about.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbodeode1.github.io%2FEPL-PLAY%2Fabout.html)
+
+### **CSS Validation**
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+
+whole css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbodeode1.github.io%2FEPL-PLAY%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings) - The Erros found were in relation to weekbit.
+
+### JS Validation
+[Code Beauty](codebeautify.org) was used to validate the JavaScript of the website.
+
+#### script.js Validation
+The result of the validation showed 29 warning signs but no error was found.
+
+
+
+#### **question.js Validation**
+The result of the validation returned 2 errors. 
+
+![Question JavaScript](assets/images/question-js-validation.png)
+
+#### **main.js Validation**
+The result of the validation returned 2 errors. 
+
+![Main JavaScript](assets/images/main-js-validation.png)
+
+
