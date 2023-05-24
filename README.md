@@ -7,12 +7,21 @@ Interactive Frontend Development Milestone Project 2
 
 ## Table of Contents
 
-1. [Introduction](#Introduction)
-2. [UX Development Plane](#UX Development Plane)
-     1. [Strategy Plane](Strategy Plane)
+1. [Introduction](#introduction)
+2. [UX Development Plane](#ux-development-plane)
+     1. [Strategy Plane](#strategy-plane)
         - User Goals
         - Site Owner Goals
-     2. User Experience
+     2. [User Experience](#user-experience)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colour](#colour)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks and Tools](#frameworks-and-tools)
+5. [Features](#features)
 
 ## Introduction
 
@@ -20,7 +29,7 @@ Welcome to EPL PLAY! EPL PLAY is a website-based quiz game designed to test user
 This quiz game is the second of my Milestone Project for the Full Stack Web Development Program at  Code Institute. The aim was to design an interactive and responsive website using HTML5, CSS, and JavaScript.
 
 ## UX Development Plane
-## 1. Strategy Plane
+##  Strategy Plane
 
 ### **User Goals**
 - Test and improve knowledge of the Premier League.
@@ -37,7 +46,7 @@ This quiz game is the second of my Milestone Project for the Full Stack Web Deve
 - Engage users and keep them entertained with an enjoyable quiz game experience.
 - Establish the quiz game as a go-to resource for Premier League enthusiasts.
 
-## 2. User Experience
+##  User Experience
 
 ### **Target Audience**
 - Football enthusiasts and die-hard fans of the Premier League.
@@ -56,4 +65,67 @@ This quiz game is the second of my Milestone Project for the Full Stack Web Deve
 -  To challenge oneself with new sets of questions and quizzes to test knowledge and learn more about the Premier League.
 -  To share the Premier League quiz game with friends, family, or fellow football enthusiasts to spread the enjoyment and knowledge about the Premier League.
 
+## Design
 
+### **Design Choices**
+The game was designed to stimulate users' senses. I wanted users to have a sense of being present at a football field while playing the quize. As such, a football field background image was inserted on every pages of the website.
+
+### **Colour**
+For the colour, I opted for purple as the only color for the website. This keeps the website clean and simple.
+
+### **Fonts**
+Roboto was used for the logo and the headings throughout the site. The logic behind this was to maintain style and simplicity throughout the site and call attention to key information.
+Source-sans-pro was chosen for the body text of the website, this font combines very well with Roboto and again maintains the clean simplistic approach site-wide.
+
+### **Structure**
+The website consists of four separate pages, all of which are resonsive in nature across all devices.
+- A homepage with an introductory message that introduces the users with what the website is all about. It also introduces the quiz".
+- An about page that tells users of what EPL Play is about and then goes on to give a brief history of the English Premier League.
+- A proile page that let users create a profile for themselves.
+- A contact page with a simple form asking for users' email and name.
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+- JavaScript
+
+### Frameworks and Tools
+- Git
+- GitHub
+- Gitpod
+- Balsamiq
+- Google Fonts
+- Font Awesome
+
+## Features
+The page consists of four pages.
+
+### Logo and Navigation Bar
+- The navigation is fully responsive and collapses when the window is minimised.
+- The Logo is a hyperlink that takes users back to the home page
+
+<p>Nav on Laptop</p>
+
+![Nav-Bar Laptop](assets/images/navbar-laptop.png)
+
+<p>Nav on Mobile</p>
+
+![Nav-Bar on Mobile](assets/images/navbar-mobile.png)
+
+### About
+This page introduces users to EPL Play
+
+<p>About Page on Laptop</>
+
+![About Page Laptop](assets/images/about-page.png)
+
+![About Page Mobile](assets/images/about-page-mobile.png)
+
+### Profile
+Lets a user creates a profile. 
+
+<p>Profile Page Laptop</p>
+
+![Profile Page Laptop](assets/images/profile-page-laptop.png)
