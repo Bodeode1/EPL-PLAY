@@ -31,12 +31,16 @@ Interactive Frontend Development Milestone Project 2
     6. [Responsiveness](#responsiveness)
     7. [Device testing](#performing-tests-on-various-devices)
     8. [Browser compatibility](#browser-compatibility)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+9. [Acknowledgements](#acknowledgements)
 
 
 ## Introduction
 
 Welcome to EPL PLAY! EPL PLAY is a website-based quiz game designed to test users' knowledge of the English Premier League. Whether you're a die-hard fan or just getting started, this game will challenge your understanding of Premier League history, teams, players, and memorable moments.
-This quiz game is the second of my Milestone Project for the Full Stack Web Development Program at  Code Institute. The aim was to design an interactive and responsive website using HTML5, CSS, and JavaScript.
+
+This quiz game is the second milestone project for the Full Stack Web Development Program at Code Institute. The aim was to design an interactive and responsive website using HTML5, CSS, and JavaScript.
 
 ## UX Development Plane
 ##  Strategy Plane
@@ -78,20 +82,26 @@ This quiz game is the second of my Milestone Project for the Full Stack Web Deve
 ## Design
 
 ### **Design Choices**
-The game was designed to stimulate users' senses. I wanted users to have a sense of being present at a football field while playing the quize. As such, a football field background image was inserted on every pages of the website.
+The game was designed to stimulate users' senses, aiming to give them a sense of being present at a football field while playing the quiz. As such, a football field background image was inserted on every page of the website.
 
 ### **Colour**
-For the colour, I opted for purple as the only color for the website. This keeps the website clean and simple.
+For the color scheme, I opted for purple as the primary color throughout the website. This choice helps keep the website clean and simple.
 
 ### **Fonts**
-Segoe UI and Lucida Sans was used for most of the content on the website. Courier New was used for buttons.
+I used Segoe UI and Lucida Sans for most of the content on the website, as they provide clarity and readability. Additionally, Courier New was chosen for buttons to give them a distinct style.
 
 ### **Structure**
-The website consists of four separate pages, all of which are resonsive in nature across all devices.
-- A homepage with an introductory message that introduces the users with what the website is all about. It also introduces the quiz".
-- An about page that tells users of what EPL Play is about and then goes on to give a brief history of the English Premier League.
-- A proile page that let users create a profile for themselves.
-- A contact page with a simple form asking for users' email and name.
+The website consists of four separate pages, all of which are responsive across all devices:
+
+Homepage: This page features an introductory message that introduces users to the website and the quiz. It sets the tone and prepares users for the gaming experience.
+
+About Page: The about page provides information about EPL Play and gives a brief history of the English Premier League. It helps users understand the context and significance of the quiz.
+
+Profile Page: Users can create a profile for themselves on this page, allowing for a personalized experience.
+
+Contact Page: The contact page includes a simple form asking for users' email and name. This allows users to get in touch or provide feedback, fostering communication and interaction.
+
+These design choices aim to create an engaging and visually appealing experience for users playing the Premier League Quiz game, while maintaining a consistent and user-friendly interface.
 
 ## Technologies Used
 
@@ -202,14 +212,60 @@ Google Lighthouse Tool was used to test the performance of the website.
 ![Profile Page](assets/images/performance-profile.png)
 
 ### Responsiveness
-The website is completely responsive and has been tested on mobile, tablet and desktop.
+The website is completely responsive and has been tested on mobile, tablet, and desktop devices.
 
 ### Browser compatibility
-The website was tested on the following browsers:
+The website has been thoroughly tested on popular browsers, including Google Chrome, Safari, Mozilla Firefox, and Microsoft Edge.
 - Google Chrome
 - Safari
 - Mozilla Firefox
 - Microsoft Edge
+
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab.
+2. Select Pages from the menu on the left hand-side.
+3. For the source select Branch: master.
+4. After the webpage refreshes automatically a ribbon on the top says: "Your site is published at "https://bodeode1.github.io/EPL-PLAY/"
+
+You can fork the repository by following these steps:
+1. Go to the GitHub repository.
+2. Click on Fork button in upper right hand corner.
+
+You can clone the repository by following these steps:
+1. Go to the GitHub repository.
+2. Locate the Code button above the list of files and click it.
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard.
+4. Open Git Bash.
+5. Change the current working directory to the one where you want the cloned directory.
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7.Press Enter to create your local clone.
+
+## Credits
+Images not referenced below are owned by the developer.
+
+### Media
+The background image of the football pitch was sourced from pixabay.com
+- Photo by Pixabay <a href="https://www.istockphoto.com/search/search-by-asset?affiliateredirect=true&assetid=643632382&assettype=image&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Ffootball%2520pitch%2F&utm_medium=affiliate&utm_source=pixabay&utm_term=football+pitch">Football Pitch</a>
+
+### Code
+In order of appearance:
+- The HTML used for the website was learned from Code with Mosh on his website [Code with Mosh](https://codewithmosh.com/). Other HTML codes were learned from [W3 Schools](https://www.w3schools.com/), and Code Institute.
+- The CSS used was also learned from Code with Mosh and on W3 Schools.
+- JavaScript was also learned from Code with Mosh and from Code Institute and W3 Schools.
+
+## Acknowledgements
+I would like to express my gratitude to the following individuals:
+
+- My mentor, Oluwaseun Owonikoko, for her invaluable feedback, advice, guidance, and support throughout the development process.
+- A heartfelt thank you to my wife, Fortune Odebiyi, for her unwavering support, sacrifices, and constant encouragement.
+- To my son, Iyinoluwa Odebiyi, for always believing in me and motivating me to pursue excellence.
+
+
+
+
+
+
 
 
 
