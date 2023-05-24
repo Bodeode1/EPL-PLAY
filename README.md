@@ -169,7 +169,7 @@ whole css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2
 #### script.js Validation
 The result of the validation showed 29 warning signs but no error was found.
 
-
+![Script JavaScript Validation](assets/images/script-js-validation.png)
 
 #### **question.js Validation**
 The result of the validation returned 2 errors. 
@@ -180,5 +180,8 @@ The result of the validation returned 2 errors.
 The result of the validation returned 2 errors. 
 
 ![Main JavaScript](assets/images/main-js-validation.png)
+
+### Accessibility
+The WAVE WebAIM web accessibility tool was used to ensure the website met accessibility standards.
 
 
