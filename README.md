@@ -171,7 +171,7 @@ The result of the validation showed 29 warning signs but no error was found.
 
 ![Script JavaScript Validation](assets/images/script-js-validation.png)
 
-#### **question.js Validation**
+#### **question.js Validation**git 
 The result of the validation returned 2 errors. 
 
 ![Question JavaScript](assets/images/question-js-validation.png)
