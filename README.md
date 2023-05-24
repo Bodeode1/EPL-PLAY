@@ -31,7 +31,7 @@ Interactive Frontend Development Milestone Project 2
     6. [Responsiveness](#responsiveness)
     7. [Device testing](#performing-tests-on-various-devices)
     8. [Browser compatibility](#browser-compatibility)
-    9. [Testing user stories](#testing-user-stories) 
+
 
 ## Introduction
 
@@ -163,7 +163,7 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 
 whole css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbodeode1.github.io%2FEPL-PLAY%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings) - The Erros found were in relation to weekbit.
 
-### JS Validation
+### **JS Validation**
 [Code Beauty](codebeautify.org) was used to validate the JavaScript of the website.
 
 #### script.js Validation
@@ -171,17 +171,45 @@ The result of the validation showed 29 warning signs but no error was found.
 
 ![Script JavaScript Validation](assets/images/script-js-validation.png)
 
-#### **question.js Validation**git 
+#### question.js Validation
 The result of the validation returned 2 errors. 
 
 ![Question JavaScript](assets/images/question-js-validation.png)
 
-#### **main.js Validation**
+#### main.js Validation
 The result of the validation returned 2 errors. 
 
 ![Main JavaScript](assets/images/main-js-validation.png)
 
 ### Accessibility
 The WAVE WebAIM web accessibility tool was used to ensure the website met accessibility standards.
+
+
+index.html [results](https://wave.webaim.org/report#/https://bodeode1.github.io/EPL-PLAY/index.html) - Six erros relate to contrast and one error relates to no use of heading on the page.
+
+game.html [results](https://wave.webaim.org/report#/https://bodeode1.github.io/EPL-PLAY/game.html) - Three errors were found relating to the use of no heading on the page.
+
+### Performance 
+Google Lighthouse Tool was used to test the performance of the website. 
+
+
+![Home Page](assets/images/performance-homepage.png)
+
+![About Page](assets/images/performance-about.png)
+
+![Contact Page](assets/images/performance-contact.png)
+
+![Profile Page](assets/images/performance-profile.png)
+
+### Responsiveness
+The website is completely responsive and has been tested on mobile, tablet and desktop.
+
+### Browser compatibility
+The website was tested on the following browsers:
+- Google Chrome
+- Safari
+- Mozilla Firefox
+- Microsoft Edge
+
 
 
